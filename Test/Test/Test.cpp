@@ -3,10 +3,18 @@
 
 #include <iostream>
 
+int resta() {
+
+    int a = 1, b = 2;
+    std::cout << b-a;
+
+}
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    resta();
 }
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
