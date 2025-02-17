@@ -1,11 +1,20 @@
-// Test.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
+// TestVS.cpp : This file contains the 'main' function. Program execution begins and ends there.
 #include <iostream>
 
+int Suma(int a, int b)
+{
+    int suma = a + b;
+
+    return suma;
+}
 int main()
 {
+    //a
     std::cout << "Hello World!\n";
+    int a = 4;
+    int b = 3;
+    int suma = Suma(a, b);
+    std::cout << "Suma és:" << suma << "\n Resta és:" << std::endl;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
