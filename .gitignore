@@ -398,3 +398,13 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+
+# Archivos y carpetas de Unity a ignorar
+[Llave]Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+Packages/
+.vsconfig
