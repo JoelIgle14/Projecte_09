@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-int resta() {
+void resta() {
 
     int a = 1, b = 2;
     std::cout << b-a;
