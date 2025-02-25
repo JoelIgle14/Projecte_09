@@ -408,3 +408,11 @@ Logs/
 UserSettings/
 Packages/
 .vsconfig
+
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+Packages/
+
